@@ -22,6 +22,7 @@ Paste it to F12 console
 
 - auto click         : `automation.clickCookie()`
 - auto click golden  : `automation.clickGolden()`
+- autosave           : `automation.save(/* interval second */)`
 - all / すべて有効化 : `automation.all()`
 
 ## Mod

@@ -5,9 +5,14 @@ const automation = {
   clickCookie() {
     setInterval(() => { Game.ClickCookie(); Game.lastClick=0 }, 1)
   },
+  save(second) {
+    second = second || 3600
+    setInterval(() => { Game.FileSave() }, second * 1000)
+  },
   all() {
     automation.clickGolden()
     automation.clickCookie()
+    automation.save()
   },
 }
 
@@ -17,10 +22,10 @@ const mods = {
   },
   frozenCookies() {
     Game.LoadMod('https://mtarnuhal.github.io/FrozenCookies/frozen_cookies.js')
-  }
+  },
   cookieGardenHelper() {
     Game.LoadMod('https://rawgit.com/yannprada/cookie-garden-helper/master/cookie-garden-helper.js')
-  }
+  },
 }
 
 function enable(modName) {
