@@ -4,6 +4,7 @@
   "description": "Scripts for cookie clicker",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/zakuro9715/cookie-clicker-scripts/issues"
   },
-  "homepage": "https://github.com/zakuro9715/cookie-clicker-scripts#readme"
+  "homepage": "https://github.com/zakuro9715/cookie-clicker-scripts#readme",
+  "devDependencies": {
+    "@zakuro9715/eslint-config": "^2.4.0",
+    "eslint": "^7.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-promise": "^4.2.1"
+  }
 }
