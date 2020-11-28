@@ -10,3 +10,12 @@ const automation = {
     automation.clickCookie()
   },
 }
+
+const mod = {
+  cookieMoster() {
+    Game.LoadMod('http://aktanusa.github.io/CookieMonster/CookieMonster.js')
+  },
+  frozenCookies() {
+    Game.LoadMod('https://mtarnuhal.github.io/FrozenCookies/frozen_cookies.js')
+  }
+}

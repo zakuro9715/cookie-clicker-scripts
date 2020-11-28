@@ -14,3 +14,8 @@ Paste it to F12 console
 - auto click        : `automation.clickCookie()`
 - auto click golden : `automation.clickGolden()`
 - all               : `automation.all()`
+
+# Mod
+
+- CookieMonster : `mod.cookieMonster()`
+- FrozenCookies : `mod.frozenCookies()`
