@@ -15,7 +15,7 @@ Paste it to F12 console
 - auto click golden : `automation.clickGolden()`
 - all               : `automation.all()`
 
-# Mod
+## Mod
 
-- CookieMonster : `mod.cookieMonster()`
-- FrozenCookies : `mod.frozenCookies()`
+- CookieMonster : `mods.cookieMonster()`
+- FrozenCookies : `mods.frozenCookies()`
