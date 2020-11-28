@@ -1,6 +1,6 @@
 {
-  "name": "cookie-clicker-scripts",
-  "version": "1.0.0",
+  "name": "@zakuro9715/cookie-clicker-scripts",
+  "version": "0.1.0",
   "description": "Scripts for cookie clicker",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,12 @@
     "type": "git",
     "url": "git+ssh://git@github.com/zakuro9715/cookie-clicker-scripts.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "cookie-clikcer"
   ],
