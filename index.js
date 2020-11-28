@@ -55,3 +55,8 @@ function enable(modName) {
     alert(`Cannot find mod, ${modName}`)
   }
 }
+
+window.automation = automation
+window.mods = mods
+window.cheat = cheat
+window.enable = enable
