@@ -19,3 +19,13 @@ const mods = {
     Game.LoadMod('https://mtarnuhal.github.io/FrozenCookies/frozen_cookies.js')
   }
 }
+
+function enable(modName) {
+  automation.all()
+  const mod = mods[modName]
+  if (mod) {
+    mod()
+  } else if (modName && !mod) {
+    alert(`Cannot find mod, ${modName}`)
+  }
+}

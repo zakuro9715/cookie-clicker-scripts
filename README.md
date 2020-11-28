@@ -9,6 +9,10 @@ Paste content of [index.js](./index.js) to F12 console
 
 Paste it to F12 console
 
+# EnableReccommended
+
+`enable()` or `enable('cookieMonster' /* or mod name */)`
+
 ## Automation
 
 - auto click        : `automation.clickCookie()`
