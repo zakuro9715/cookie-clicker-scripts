@@ -1,0 +1,22 @@
+{
+  "name": "cookie-clicker-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for cookie clicker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zakuro9715/cookie-clicker-scripts.git"
+  },
+  "keywords": [
+    "cookie-clikcer"
+  ],
+  "author": "zakuro <z@kuro.red>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/zakuro9715/cookie-clicker-scripts/issues"
+  },
+  "homepage": "https://github.com/zakuro9715/cookie-clicker-scripts#readme"
+}
