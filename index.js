@@ -18,6 +18,9 @@ const mods = {
   frozenCookies() {
     Game.LoadMod('https://mtarnuhal.github.io/FrozenCookies/frozen_cookies.js')
   }
+  cookieGardenHelper() {
+    Game.LoadMod('https://rawgit.com/yannprada/cookie-garden-helper/master/cookie-garden-helper.js')
+  }
 }
 
 function enable(modName) {

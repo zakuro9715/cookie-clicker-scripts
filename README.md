@@ -26,5 +26,6 @@ Paste it to F12 console
 
 ## Mod
 
-- CookieMonster : `mods.cookieMonster()`
-- FrozenCookies : `mods.frozenCookies()`
+- CookieMonster      : `mods.cookieMonster()`
+- FrozenCookies      : `mods.frozenCookies()`
+- CookieGardenHelper : `mods.cookieGardenHelper()`
