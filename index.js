@@ -18,7 +18,7 @@ const automation = {
 
 const mods = {
   cookieMonster() {
-    Game.LoadMod('http://aktanusa.github.io/CookieMonster/CookieMonster.js')
+    Game.LoadMod('https://aktanusa.github.io/CookieMonster/CookieMonster.js')
   },
   frozenCookies() {
     Game.LoadMod('https://mtarnuhal.github.io/FrozenCookies/frozen_cookies.js')
