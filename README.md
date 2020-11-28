@@ -1,7 +1,9 @@
 # cookie-clicker-scripts
 Scripts for CookieClicker
 
+# Setup
 
+Paste content of [index.js](./index.js) to F12 console
 
 # Scripts
 
