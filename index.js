@@ -28,6 +28,24 @@ const mods = {
   },
 }
 
+const cheat = {
+  debugMode() {
+    Game.OpenSesame()
+  },
+  getAllDebugs() {
+    Game.GetAllDebugs()
+  },
+  ruinTheFun() {
+    Game.RuinTheFun()
+  },
+  setCookies(n) {
+    Game.cookies = n
+  },
+  setCps(n) {
+    Game.cookiesPs = [n]
+  },
+}
+
 function enable(modName) {
   automation.all()
   const mod = mods[modName]
